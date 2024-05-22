@@ -2,6 +2,7 @@ gradeArray = []
 gradeWeights = []
 
 while True:
+
     print("Select an option:")
     print("1. Enter a grade")
     print("2. Enter an AP grade")
@@ -45,7 +46,4 @@ while True:
 
 
         print("Weighted Average:", gradeAvg)
-        break
-
-    
-
+        break # end function after grade calculated
